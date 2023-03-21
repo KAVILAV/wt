@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wraper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+}
+.box{
+padding: 5px;
+background: rgba(0,0,0,0.5);
+}
+
+th{
+    width:100px;
+    height: 50px;
+    margin: 50px;
+    border: solid white;
+    background-color: rgb(3, 26, 3);
+    color: white;
+}
+td{
+    width: 100px;
+    margin: 50px;
+    border: solid black;
+}
+.points,.gpoints{
+    width: 100px;
+    background: white;
+    height: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+select{
+   width: 100px;
+   font-weight: bolder; 
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+}
+.result{
+    width: 310px;
+    height: 35px;
+    border: solid green;
+    background: white;
+    color: black;
+    font-weight: bolder;
+}
